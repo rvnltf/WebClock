@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('http://www.esa.int/extension/pillars/design/pillars/images/nebula.jpg');
+    background-size: cover;
+    color: honeydew;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clock{
+    max-width: 500px;
+    padding: 30px;
+    align-items: center;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    border: thin solid white;
+}
+
+.clock .time {
+    font-size: 70px;
+}
+
+.clock .date {
+    font-size: 30px;
+}
